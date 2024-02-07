@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <script src="https://kit.fontawesome.com/31a0103d47.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>ICode!</title>
+</head>
+<body>
+
+    <section id="navbar">
+
+       
+       <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="navbar-brand">
+                <img src="images/Hair_Logo.png" alt="iCode">
+                <span class="brand-text">iCode</span>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnav" id="hamburger-icon-button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navbarnav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#banner" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#technologies" class="nav-link">SKILLS</a></li>
+                    <li class="nav-item"><a href="#about-us" class="nav-link">ABOUT</a></li>
+                    
+                </ul>
+           </div>
+        </nav>
+
+   </section>
+
+   <!-- ---------------------- Hero Section Starts --------------- -->
+
+   <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="hero-title">Code is Magic</p>
+                    <p>Amaan is the magician who does this magic. Coding enables things to come into existance out of thin air</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="images/boy_transparent_png.png" alt="Amaan" class="img-fluid">
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <!-- ----------------- Technology Section Starts --------- -->
+
+   <section id="technologies">
+
+        <div class="cotainer text-center">
+                <h3 class="section-title">Technologies I learnt</h3>
+                <div class="row text-center">
+
+                    <div class="col-md-4 tech">
+                        <img src="images/html_icon.png" alt="html" class="tech-img">
+                        <h4>html</h4>
+                        <p>HTML is the most fundamental technology for webdesigning. HTML gives the structure to a webpage.</p>
+                    </div>
+                    
+
+                    <div class="col-md-4 tech">
+                        <img src="images/css_icon.png" alt="css" class="tech-img">
+                        <h4>css</h4>
+                        <p>CSS controls the aesthetics of the webpage. CSS goes hand in hand with html. There can be no CSS withouth its HTML counterpart</p>
+                    </div>
+                    
+                    <div class="col-md-4 tech">
+                        <img src="images/bootstrap_icon.png" alt="bootstrap" class="tech-img">
+                        <h4>bootstrap</h4>
+                        <p>Bootstrap is CSS framework. It is basically library of CSS code using which a coder can create webpages faster.</p>
+                    </div>
+            </div>
+            <button class="btn btn-primary"><a href="#about-us">Know More</a></button>
+        </div>
+
+   </section>
+   <!-- -------- About Amaan starts ------------------ -->
+   
+   <section id="about-us">
+       <div class="container text-center">
+           <h3 class="section-title">About Amaan</h3>
+           <div class="row">
+               <div class="col-md-12" style="margin-top:150px;">
+                   <h3 class="text-center" style="font-family: sans-serif;">Who is Amaan?</h3>
+                   <p class="text-justify">Amaan, that is me, is a 8 years old coder (as of 2021) who is all set to change the norm and show the world that kids go beyond scrtach and do real coding. He joined Sarada Academy in 2019 and soon developed industry garade coding skills. Unlike his other friends who were still working visual environments built for kids. Amaan didn't want that, he whated to code like the grown-ups. This website is coded by Amaan writing each line of code himself.</p>
+               </div>
+               <!-- <div class="col-md-6">
+                   <img src="images/boy2.png" alt="amaan logo 2" style="height: 500px;">
+               </div> -->
+           </div>
+       </div>
+    </section>
+
+    <!-- -------- Testimonial Section --------- -->
+
+    <section id="testimonial">
+        <div class="container text-center">
+            <h3 class="section-title" style="margin-top: 60px;">What are others saying about Amaan</h3>
+            <div class="row offset-1">
+                <div class="col-md-5 text-left testimonial">
+                    <p>Amaan is a great coder for his age group.</p>
+                    <img src="images/Anirban.jpeg" alt="Anirban" width="50px" height="50px" class="testimonial-img">
+                    
+                    
+                    <p class="name small text-muted"><strong>Anirban</strong><br> Teacher, Sarada Academy</p>
+                </div>
+                <div class="col-md-5 text-left testimonial">
+                   <p>Amaan has been working very hard for 2+ years before he made this website. Amaan is very hard working and patient</p>
+                   <img src="images/Father.jpeg" alt="Syed Waqarul Haque" width="50" height="50" class="testimonial-img">
+                   
+                   
+                   <p class="name small text-muted"><strong>Syed Waqarul Haque</strong><br> Father, Amaan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+	    var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>
